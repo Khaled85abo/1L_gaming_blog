@@ -18,6 +18,8 @@
     </div>
 
     <!-- user info section -->
+
+    <a href="login.php">logga ut</a>
     
 
 

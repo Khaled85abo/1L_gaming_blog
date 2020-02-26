@@ -20,6 +20,6 @@
         </div>
 
         <div class="login">
-        <a href="signup.php" class="link">Sign in!</a>
+        <a href="signupform.php" class="link">Sign in!</a>
         </div>
     </form>
