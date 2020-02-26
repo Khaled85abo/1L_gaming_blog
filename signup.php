@@ -8,8 +8,12 @@
 </head>
 <body>
 <?php
-include("db.php");
+
 include("signupform.php");
+
+
+
+
 
 ?>
     

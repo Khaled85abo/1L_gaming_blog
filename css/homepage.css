@@ -29,3 +29,12 @@
     background: gray;
     display: block;
 }
+
+.logo {
+    height: 40px;
+    margin-top: auto;
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    cursor: pointer;
+}
