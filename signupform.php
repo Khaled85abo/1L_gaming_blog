@@ -50,6 +50,6 @@
         </div>
 
         <div class="login">
-        <a href="login.php" class="link"> Already a user?</a>
+        <span>Already have an account? </span><a href="login.php" class="link">Login here.</a>
         </div>
     </form>
