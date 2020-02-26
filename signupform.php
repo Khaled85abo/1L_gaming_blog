@@ -1,8 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
 <div >
 <img class="logo" src="./images/logo.png">
 </div>
 
-<form action="signupresult.php" method= "post">
+<form action="signup.php" method="POST">
         <div class="form">
             <input type="text" name="firstname" autocomplete="off" >
             <label for="name" class="label-name">

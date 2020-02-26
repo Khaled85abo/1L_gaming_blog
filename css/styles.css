@@ -1,122 +1,122 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(#021b79, #0080ff, #021b79);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#021b79, #0080ff, #021b79);
 }
 
 form {
-  width: 25%;
-  color: rgb(0, 255, 255);
+    width: 25%;
+    color: rgb(0, 255, 255);
 }
 
 .form {
-  position: relative;
-  height: 60px;
-  overflow: hidden;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
 }
 
 .form input {
-  width: 100%;
-  height: 100%;
-  color: White;
-  font-size: 15px;
-  padding-top: 20px;
-  border: none;
-  outline: none;
-  background: linear-gradient(#021b79, #0080ff, #021b79);
-  background: repeat;
+    width: 100%;
+    height: 100%;
+    color: White;
+    font-size: 15px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    background: linear-gradient(#021b79, #0080ff, #021b79);
+    background: repeat;
 }
 
 .form label {
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  border-bottom: 2px solid rgb(0, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 2px solid rgb(0, 255, 255);
 }
 
 .form label::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  bottom: -1px;
-  height: 100%;
-  width: 100%;
-  border-bottom: 3px solid rgb(0, 255, 255);
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid rgb(0, 255, 255);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
 }
 
 .content-name {
-  position: absolute;
-  bottom: 5px;
-  left: 0px;
-  transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease-in-out;
 }
 
-.form input:focus + .label-name .content-name,
-.form input:valid + .label-name .content-name {
-  transform: translateY(-150%);
-  font-size: 15px;
-  color: rgb(0, 255, 255);
+.form input:focus+.label-name .content-name,
+.form input:valid+.label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 15px;
+    color: rgb(0, 255, 255);
 }
 
-.form input:focus + .label-name::after,
-.form input:valid + .label-name::after {
-  transform: translateX(0%);
+.form input:focus+.label-name::after,
+.form input:valid+.label-name::after {
+    transform: translateX(0%);
 }
 
 .buttons {
-  width: 30%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 7px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7px;
 }
 
 .buttons input {
-  border-radius: 15px;
-  height: 25px;
-  background: red;
-  border: none;
-  color: white;
-  font-size: 15px;
-  margin-top: 15px;
+    border-radius: 15px;
+    height: 25px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 .buttons input:active {
-  height: 20px;
-  margin-top: 20px;
+    height: 20px;
+    margin-top: 20px;
 }
 
 .logo {
-  height: 200px;
-  width: 350px;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .login {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .link {
-  color: rgb(245, 49, 49);
-  font-size: 16px;
-  font-weight: bold;
+    color: rgb(245, 49, 49);
+    font-size: 16px;
+    font-weight: bold;
 }

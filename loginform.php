@@ -1,8 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
 <div >
 <img class="logo" src="./images/logo.png">
 </div>
 
-<form action="">
+<form action="login.php" method="post">
         <div class="form">
             <input id="transparent" type="text" name="email" autocomplete="off" required>
             <label for="email" class="label-name">
@@ -20,6 +30,9 @@
         </div>
 
         <div class="login">
-        <a href="signup.php" class="link">Sign in!</a>
+        <a href="signupform.php" class="link">Sign in!</a>
         </div>
     </form>
+
+    </body>
+</html>

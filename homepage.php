@@ -21,6 +21,13 @@
     </div>
 
     <!-- user info section -->
+
+    <?php
+    include('db.php');
+    
+    echo ("welcome ") . $row['firstname'] . "!";
+?>
+    <a href="login.php">logga ut</a>
     
 
 
