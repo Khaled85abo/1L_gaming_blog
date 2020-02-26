@@ -23,14 +23,14 @@ if (empty($row)){
     echo "you must sign up!";
   //  header("location:index.php?err=true");
 } else {
-  
+    echo ("welcome ") . $row['firstname'] . "!";
+
  /*    session_start();
     $_SESSION ['user__name'] = $row['name'];
     $_SESSION ['user__password'] = $row['password']; */
 
 
     header("location:homepage.php");
-    echo ("welcome ") . $row['firstname'] . "!";
 }
 
 

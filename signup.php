@@ -20,14 +20,15 @@ print_r($dbh->errorInfo());
 
  if (empty($row)){
      echo "du kan inte logga in";
-    header("location:homepage.php?err=true");
+    header("location:login.php?err=true");
  } else {
      session_start();
      $_SESSION ['user__name'] = $row['firstname'];
      $_SESSION ['user__password'] = $row['password'];
+     echo "Regestration succes";
 
 
-     header("location:homepage.php");
+     header("location:login.php"); 
  }
 
 

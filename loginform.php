@@ -30,7 +30,7 @@
         </div>
 
         <div class="login">
-        <a href="signupform.php" class="link">Sign in!</a>
+        <span>Don't have an account? </span><a href="signupform.php" class="link">Sign up now.</a>
         </div>
     </form>
 
