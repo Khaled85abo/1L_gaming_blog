@@ -24,16 +24,28 @@
 
     <?php
     include('db.php');
-    
     session_start();
+    $username = $_SESSION ['user__name'];
+    if( isset($_SESSION['admin']) && $_SESSION['admin'] == 1){
+        echo "<span> Welcome  $username Admin! </span>" . "</br>";
+    } else if (isset($_SESSION['admin']) && $_SESSION['admin'] == 0){
+        echo "<span> Welcome  $username! </span>" . "</br>";
+
+    } else {
+        session_destroy();
+        header("location:loginform.php");
+
+    }
+    
+/*     session_start();
 
     $username = $_SESSION ['user__name'];
 
-    echo "<span> Welcome  $username! </span>",  "</br>";
+    echo "<span> Welcome  $username! </span>",  "</br>"; */
    
     
 ?>
-    <a href="loginform.php">logga ut</a>
+    <a href="logout.php">logga ut</a>
     
 <style>
     span{

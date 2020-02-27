@@ -4,7 +4,7 @@ include('db.php');
 
 
 $email = $_POST['email'];
-$password = $_POST['password'];
+$password = md5($_POST['password']);
 
 
 
