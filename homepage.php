@@ -25,11 +25,24 @@
     <?php
     include('db.php');
     
-    echo ("welcome ") . $row['firstname'] . "!";
-?>
-    <a href="login.php">logga ut</a>
-    
+    session_start();
 
+    $username = $_SESSION ['user__name'];
+
+    echo "<span> Welcome  $username! </span>",  "</br>";
+   
+    
+?>
+    <a href="loginform.php">logga ut</a>
+    
+<style>
+    span{
+        font-size: 25px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: 'Arial';
+    }
+</style>
 
 
 

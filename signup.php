@@ -18,6 +18,8 @@ $return = $sth->execute();
 print_r($dbh->errorInfo());
 
 
+$row = $sth->fetch();
+
  if (empty($row)){
      echo "du kan inte logga in";
     header("location:login.php?err=true");
