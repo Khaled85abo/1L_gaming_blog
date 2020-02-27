@@ -25,7 +25,7 @@
     <?php
     include('db.php');
     session_start();
-    $username = $_SESSION ['user__name'];
+    $username = $_SESSION['user__name'];
     if( isset($_SESSION['admin']) && $_SESSION['admin'] == 1){
         echo "<span> Welcome  $username Admin! </span>" . "</br>";
     } else if (isset($_SESSION['admin']) && $_SESSION['admin'] == 0){
@@ -46,6 +46,7 @@
     
 ?>
     <a href="logout.php">logga ut</a>
+
     
 <style>
     span{
@@ -54,6 +55,8 @@
         font-weight: bold;
         font-family: 'Arial';
     }
+
+
 </style>
 
 

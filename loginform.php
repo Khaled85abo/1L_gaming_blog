@@ -17,9 +17,8 @@
             <input id="transparent" type="text" name="email" autocomplete="off" required>
             <label for="email" class="label-name">
             <span class="content-name">E-mail</span>
-            <?php
-            echo (isset($_GET['err']) && $_GET['err'] == true ? "<span id='fel'>*Are you sure you typed right?</span>" . "</br>" . $_GET['message'] : "");
-            ?>
+<?php echo (isset($_GET['err']) && $_GET['err'] == true ? "<span id='fel'>*Are you sure you typed right?</span>" . "</br>" . $_GET['message'] : ""); ?>
+
 
         </label>
         </div>
@@ -27,6 +26,7 @@
             <input type="password" name="password" autocomplete="off" required>
             <label for="password" class="label-name">
             <span class="content-name">Password</span>
+        
 
         </label>
         </div>
